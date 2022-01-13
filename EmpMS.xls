@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <html>
+            <body>
+                <h2>Eployee Managment System</h2>
+                <table border="1">
+                    <tr bgcolor="#9acd32">
+                        <th style="text-align:left">Name</th>
+                        <th style="text-align:left">Age</th>
+                        <th style="text-align:left">Salary</th>
+                        <th style="text-align:left">Email</th>
+                         <th style="text-align:left">PhoneNumber</th>
+                        <th style="text-align:left">Designation</th>
+                    </tr>
+                    <xsl:for-each select="/Company/Employee">
+                        <tr>
+
+                            <td>
+                                <xsl:value-of select="Emp-name" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="Emp-age" />
+                            </td>                            
+                            <td>
+                                <xsl:value-of select="Emp-salary" />
+                            </td>                            
+                            <td>
+                                <xsl:value-of select="Emp-emailid" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="Emp-Phonenum" />
+                            </td>
+                            <td>
+                                <xsl:value-of select="Emp-designation" />
+                            </td>
+                        </tr>
+                    </xsl:for-each>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>

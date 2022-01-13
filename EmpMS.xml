@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Company>
+    <Employee id="1">
+        <Emp-name>joshua</Emp-name>
+        <Emp-age>22</Emp-age>
+        <Emp-salary>60000</Emp-salary>
+        <Emp-emailid>sj7stalin@gmail.com</Emp-emailid>
+        <Emp-Phonenum>7795233537</Emp-Phonenum>
+        <Emp-designation>Devops</Emp-designation>
+    </Employee>
+    <Employee id="2">
+        <Emp-name>Ronald</Emp-name>
+        <Emp-age>23</Emp-age>
+        <Emp-salary>300000</Emp-salary>
+        <Emp-emailid>ronald@mca.christ.in</Emp-emailid>
+        <Emp-Phonenum>889922112</Emp-Phonenum>
+        <Emp-designation>Web-Dev</Emp-designation>
+    </Employee>
+    <Employee id="3">
+        <Emp-name>Lisa</Emp-name>
+        <Emp-age>21</Emp-age>
+        <Emp-salary>50000</Emp-salary>
+        <Emp-emailid>Lisa@gmail.com</Emp-emailid>
+        <Emp-Phonenum>141212311</Emp-Phonenum>
+        <Emp-designation>UI-Dev</Emp-designation>
+    </Employee>
+    <Employee id="4">
+        <Emp-name>James</Emp-name>
+        <Emp-age>21</Emp-age>
+        <Emp-salary>50000</Emp-salary>
+        <Emp-emailid>James@gmail.com</Emp-emailid>
+        <Emp-Phonenum>141212311</Emp-Phonenum>
+        <Emp-designation>UI-Dev</Emp-designation>
+    </Employee>
+    <Employee id="5">
+        <Emp-name>Raju</Emp-name>
+        <Emp-age>21</Emp-age>
+        <Emp-salary>50000</Emp-salary>
+        <Emp-emailid>Raju@gmail.com</Emp-emailid>
+        <Emp-Phonenum>141212311</Emp-Phonenum>
+        <Emp-designation>UI-Dev</Emp-designation>
+    </Employee>
+    <Employee id="6">
+        <Emp-name>Prathap</Emp-name>
+        <Emp-age>21</Emp-age>
+        <Emp-salary>70000</Emp-salary>
+        <Emp-emailid>Prathap@gmail.com</Emp-emailid>
+        <Emp-Phonenum>141212311</Emp-Phonenum>
+        <Emp-designation>UI-Dev</Emp-designation>
+    </Employee>
+    <Employee id="7">
+        <Emp-name>Cavin</Emp-name>
+        <Emp-age>21</Emp-age>
+        <Emp-salary>90000</Emp-salary>
+        <Emp-emailid>Cavin@gmail.com</Emp-emailid>
+        <Emp-Phonenum>141212311</Emp-Phonenum>
+        <Emp-designation>UI-Dev</Emp-designation>
+    </Employee>
+</Company>

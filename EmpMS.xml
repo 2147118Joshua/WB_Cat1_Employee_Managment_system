@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./EmpMS.xsl"?>
 
-<Company>
+
+<Company  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="./EMS.xsd">
     <Employee id="1">
         <Emp-name>joshua</Emp-name>
         <Emp-age>22</Emp-age>
